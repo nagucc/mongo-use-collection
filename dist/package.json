@@ -1,0 +1,24 @@
+{
+  "name": "mongo-use-collection",
+  "version": "0.0.4",
+  "description": "一个简单的函数，用户连接mongodb服务器，并使用指定的集合。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagucc/mongo-use-collection.git"
+  },
+  "author": "na57 <na57@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nagucc/mongo-use-collection/issues"
+  },
+  "homepage": "https://github.com/nagucc/mongo-use-collection#readme",
+  "keywords": [],
+  "main": "dist/index.js",
+  "jsnext:main": "index.es6.js",
+  "dependencies": {
+    "babel-runtime": "^6.6.1",
+    "mongo-use-collection": "0.0.3",
+    "nagu-validates": "0.0.3",
+    "mongodb": "^2.1.18"
+  }
+}
