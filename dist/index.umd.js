@@ -1,8 +1,8 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('babel-runtime/regenerator'), require('babel-runtime/helpers/asyncToGenerator'), require('babel-polyfill'), require('mongodb')) :
-  typeof define === 'function' && define.amd ? define(['exports', 'babel-runtime/regenerator', 'babel-runtime/helpers/asyncToGenerator', 'babel-polyfill', 'mongodb'], factory) :
-  (factory((global.mongo-use-collection = global.mongo-use-collection || {}),global._regeneratorRuntime,global._asyncToGenerator,global.babelPolyfill,global.mongodb));
-}(this, function (exports,_regeneratorRuntime,_asyncToGenerator,babelPolyfill,mongodb) { 'use strict';
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('babel-runtime/regenerator'), require('babel-runtime/helpers/asyncToGenerator'), require('mongodb')) :
+  typeof define === 'function' && define.amd ? define(['exports', 'babel-runtime/regenerator', 'babel-runtime/helpers/asyncToGenerator', 'mongodb'], factory) :
+  (factory((global.mongo-use-collection = global.mongo-use-collection || {}),global._regeneratorRuntime,global._asyncToGenerator,global.mongodb));
+}(this, function (exports,_regeneratorRuntime,_asyncToGenerator,mongodb) { 'use strict';
 
   _regeneratorRuntime = 'default' in _regeneratorRuntime ? _regeneratorRuntime['default'] : _regeneratorRuntime;
   _asyncToGenerator = 'default' in _asyncToGenerator ? _asyncToGenerator['default'] : _asyncToGenerator;

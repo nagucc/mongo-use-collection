@@ -1,6 +1,6 @@
 {
   "name": "mongo-use-collection",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "一个简单的函数，用户连接mongodb服务器，并使用指定的集合。",
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-import 'babel-polyfill'
+// import 'babel-polyfill';
 import {MongoClient} from 'mongodb';
 
 export const useCollection = async (url, collectionName, cb) => {

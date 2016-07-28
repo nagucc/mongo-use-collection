@@ -1,6 +1,5 @@
 import _regeneratorRuntime from 'babel-runtime/regenerator';
 import _asyncToGenerator from 'babel-runtime/helpers/asyncToGenerator';
-import 'babel-polyfill';
 import { MongoClient } from 'mongodb';
 
 var _this = this;
