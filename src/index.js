@@ -2,6 +2,7 @@ import { MongoClient } from 'mongodb';
 import debug from 'debug';
 
 const error = debug('mongo-use-collection:error');
+const info = debug('mongo-use-collection:info');
 export const useCollection = async (
   url,
   collectionName,
@@ -19,6 +20,7 @@ export const useCollection = async (
     error(e.stack);
     fail(e);
   } finally {
+    info('result:', result);
     return result;
   }
 };
