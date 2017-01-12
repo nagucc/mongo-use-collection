@@ -1,7 +1,12 @@
 import { MongoClient } from 'mongodb';
 
 export const useCollection = async (url, collectionName, success,
-  fail = () => console.log('userCollection: FAILED')) => { // eslint-disable-line no-console
+  fail = e => {
+     /* eslint-disable no-console */
+    console.log('[useCollection: FAILED]');
+    console.log(e.message);
+    console.log(e.stack);
+  }) => {
   let result = null;
   try {
     const db = await MongoClient.connect(url);
