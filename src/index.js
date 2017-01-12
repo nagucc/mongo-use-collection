@@ -12,6 +12,10 @@ export const useCollection = async (
   let result = null;
   try {
     const db = await MongoClient.connect(url);
+    info('connected to ', url);
+    db.on('error', e => {
+      error(e);
+    });
     const col = db.collection(collectionName);
     result = await success(col, db);
     db.close();
